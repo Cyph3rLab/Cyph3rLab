@@ -1,10 +1,14 @@
+<div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=true&width=720&height=140&lines=Cyber+Security+Student;Network+Security+Engineer+(In+Training);TCP%2FIP+→+OS+Internals+→+Enterprise+Security;Enterprise+Security+%26+Identity+Protection" alt="Typing SVG" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=1000&color=00FF99&center=true&vCenter=true&width=750&lines=Cyber+Security+Student;Network+Security+Engineer+(In+Training);TCP%2FIP+%7C+OS+Internals+%7C+Enterprise+Security;Building+Security+Knowledge+from+Packets+to+Systems" />
 
-<p align="center">
-  <em>"Understand the system before securing it."</em><br>
-  <sub>先理解系统，再保护系统。</sub>
+<p>
+<em>"Understand the system before securing it."</em>
+<br>
+<sub>从数据包到系统，构建对安全的理解。</sub>
 </p>
+
+</div>
 
 ---
 
@@ -176,10 +180,6 @@ homelab/
 ---
 
 ## 📊 GitHub 统计
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Cyph3rLab&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Cyph3rLab&theme=tokyonight&hide_border=true" height="160" />
