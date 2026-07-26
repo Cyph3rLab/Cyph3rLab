@@ -12,15 +12,15 @@
 
 ---
 
-## 👤 关于我
+### 👤 关于我
 
 ```text
-> 身份       : 计算机网络专业学生
-> 方向       : 网络安全 / 企业内网安全
-> 研究       : TCP/IP · Windows Security · Active Directory
-> 实践       : Self-hosted Security Lab
-> 当前学习   : NTLM · Kerberos · 身份认证机制
-> 目标       : 成为企业安全工程师
+> 身份       : 计算机网络专业学生 | 渗透测试方向
+> 动手能力   : Python 自动化攻击脚本开发 · Scapy 协议构造 · 多线程扫描
+> 研究       : TCP/IP 协议栈 · Windows 认证机制（NTLM/Kerberos） · 内网渗透
+> 学习方法   : 以攻促防，通过亲手构造攻击包来理解协议底层，逆向防御思路
+> 当前阶段   : 协议攻击实战 ✅ → Windows 提权实战 🚀
+> 目标       : 企业安全工程师（红蓝兼备）
 ```
 
 - 目前正在深入学习 Windows 认证机制，包括 NTLM、Kerberos、Token 模型、权限控制以及 Active Directory 安全。
@@ -74,17 +74,17 @@
 
 ---
 
-## 🛠️ 技能栈
+### 🛠️ 技能栈
 
 | 分类 | 技术栈 |
 | :--- | :--- |
-| **网络基础** | TCP/IP、ARP、VLAN、DNS、DHCP、路由 |
-| **协议分析** | Wireshark、tcpdump、流量分析 |
-| **操作系统** | Linux、Windows、进程、Token、权限模型 |
+| **网络协议** | TCP/IP、ARP、ICMP、DNS、DHCP、UDP |
+| **协议分析** | Wireshark、tcpdump、Scapy |
+| **Python 自动化** | Scapy（协议构造）、多线程并发、subprocess（外部工具调用） |
+| **操作系统** | Linux（Kali/Ubuntu）、Windows（7/10/Server） |
 | **身份认证** | NTLM、Kerberos、LDAP |
-| **域安全** | Active Directory、GPO、ACL、Trust |
-| **安全检测** | Sysmon、Windows Event Logs、SIEM、日志分析 |
-| **安全工具** | Nmap、BloodHound、ELK Stack |
+| **域安全** | Active Directory、BloodHound |
+| **安全工具** | Nmap、Metasploit、Hydra、Burp Suite（基础） |
 
 ### 常用工具与平台
 
@@ -102,35 +102,25 @@
 
 ---
 
-## 📚 Currently Learning
+### 📚 Recently Labs
 
 ```text
-Current Focus:
-
-✓ Network Protocol Analysis
-✓ Windows Authentication
-✓ Active Directory Security
-✓ Security Monitoring
-✓ Enterprise Security Architecture
+✅ ARP 协议分析 + 手写 ARP 欺骗攻击脚本（Scapy）
+✅ TCP SYN 半开端口扫描器（多线程版，自研）
+✅ UDP/ICMP 协议探测脚本
+✅ Python 交互式 Nmap 调用工具
+✅ Scapy sniff() 自动化抓包与协议解析
+✅ Wireshark + tcpdump 手动流量分析
+🔲 Windows 权限提升实战（进行中）
 ```
 
 ---
 
-## 🔬 Recent Labs
 
-```text
-✓ ARP / DHCP / DNS 协议分析与抓包验证
-✓ NTLM 身份认证流程分析
-✓ Kerberos 认证流程研究
-✓ Windows 安全事件日志分析
-✓ Active Directory 域环境部署与安全验证
-```
+**当前实验环境：**
 
----
-
-## 🧪 实验环境
-
-> 自建企业级网络与内网安全实验环境，用于深入理解协议机制与验证检测方案。
+- Windows Server / Linux 靶机 + Kali 攻击机，用于协议攻击与提权练习。
+- 下一步计划搭建 Windows 域环境，深入内网横向移动与域渗透。
 
 ```text
 homelab/
@@ -153,29 +143,14 @@ homelab/
 
 ---
 
-## 🚀 Projects
-
-> 核心项目与实践成果沉淀。
+### 🚀 核心项目
 
 | 项目名称 | 描述 | 状态 |
 | :--- | :--- | :---: |
-| **Enterprise Security Lab** | 自建企业级 AD 域环境与安全检测实验平台 | WIP |
-| **Network Protocol Analyzer** | 基于 Wireshark/tcpdump 的底层协议抓包与分析实验 | Active |
-| **Security Monitoring Lab** | 基于 Sysmon + ELK Stack 的日志分析与检测工程实践 | WIP |
-
----
-
-## 📝 学习笔记与知识沉淀
-
-> 专注于底层原理拆解与安全机制分析，笔记持续更新中。
-
-| 主题 | 描述 | 状态 |
-| :--- | :--- | :---: |
-| [Network-Engineering-Notes](https://github.com/Cyph3rLab/Network-Engineering-Notes) | TCP/IP 栈、ARP/DNS/DHCP 深度分析与抓包记录 | WIP |
-| [Windows-Security-Research](https://github.com/Cyph3rLab/Windows-Security-Research) | Token 模型、LSASS、UAC、访问控制内部机制 | WIP |
-| [ActiveDirectory-Security-Lab](https://github.com/Cyph3rLab/ActiveDirectory-Security-Lab) | 域安全配置、认证流程分析、日志监控验证 | WIP |
-| [Security-Detection-Lab](https://github.com/Cyph3rLab/Security-Detection-Lab) | Sysmon 规则编写、日志分析与检测工程实践 | WIP |
-| [CTF-Writeups](https://github.com/Cyph3rLab/CTF-Writeups) | HackTheBox / TryHackMe 实验复盘与思路记录 | WIP |
+| **[Network-Engineering-Notes](https://github.com/Cyph3rLab/Network-Engineering-Notes)** | **一站式知识库**：网络协议分析 + 内网渗透实战手册 + Python 攻击脚本合集 | 🔄 WIP |
+| **渗透测试速查表** | Scapy 协议速查表 · 多线程扫描骨架 · 发包模板 | 🔄 WIP |
+| **Windows 提权实战笔记** | Windows 服务/注册表/Potato 家族提权手法研究与复现 | 🔄 WIP |
+| **企业安全实验环境** | VMware 虚拟化搭建的 Windows 域环境与内网渗透靶场 | 🔄 WIP |
 
 ---
 
