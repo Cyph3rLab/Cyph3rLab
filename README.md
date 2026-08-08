@@ -148,6 +148,7 @@ homelab/
 | 项目名称 | 描述 | 状态 |
 | :--- | :--- | :---: |
 | **[Network-Engineering-Notes](https://github.com/Cyph3rLab/Network-Engineering-Notes)** | **一站式知识库**：网络协议分析 + 内网渗透实战手册 + Python 攻击脚本合集 | 🔄 WIP |
+| **[cypher3r-arch-guide](https://github.com/Cyph3rLab/cypher3r-arch-guide)** | **Arch Linux 笔记**：不讲安装步骤，只讲配置决策、踩坑记录与底层原理 | 🔄 WIP |
 | **渗透测试速查表** | Scapy 协议速查表 · 多线程扫描骨架 · 发包模板 | 🔄 WIP |
 | **Windows 提权实战笔记** | Windows 服务/注册表/Potato 家族提权手法研究与复现 | 🔄 WIP |
 | **企业安全实验环境** | VMware 虚拟化搭建的 Windows 域环境与内网渗透靶场 | 🔄 WIP |
