@@ -178,6 +178,4 @@ homelab/
   <a href="mailto:<YOUR_EMAIL>"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
 
-<p align="center">
-  <sub>“Build knowledge from packets to systems.”</sub>
-</p>
+
