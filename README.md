@@ -12,6 +12,12 @@
 
 ---
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" />
+</picture>
+
 ### 👤 关于我
 
 ```text
@@ -161,6 +167,7 @@ homelab/
   <img src="https://streak-stats.demolab.com?user=Cyph3rLab&theme=tokyonight&hide_border=true" height="160" />
 </p>
 
+
 ---
 
 ## 🧭 Security Philosophy
@@ -177,5 +184,3 @@ homelab/
 <p>
   <a href="mailto:<YOUR_EMAIL>"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
-
-
