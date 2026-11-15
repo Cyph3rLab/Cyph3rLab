@@ -39,22 +39,22 @@
 
 ```text
 ┌─────────────────────────────────────┐
-│              网络基础               │   TCP/IP · ARP · VLAN · Routing
+│              网络基础                │   TCP/IP · ARP · VLAN · Routing
 └─────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────┐
-│              协议分析               │   Wireshark · Packet Analysis
+│              协议分析                │   Wireshark · Packet Analysis
 └─────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────┐
-│              操作系统原理           │   Windows/Linux Internals
+│              操作系统原理            │   Windows/Linux Internals
 └─────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────┐
-│          Windows 安全机制           │   Token · ACL · LSASS · UAC
+│          Windows 安全机制            │   Token · ACL · LSASS · UAC
 └─────────────────────────────────────┘
                   │
                   ▼
@@ -64,7 +64,7 @@
                   │
                   ▼
 ┌─────────────────────────────────────┐
-│            企业内网安全             │   Attack Surface Analysis · Detection
+│            企业内网安全              │   Attack Surface Analysis · Detection
 └─────────────────────────────────────┘
                   │
                   ▼
