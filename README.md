@@ -190,5 +190,5 @@ homelab/
 ## 📫 联系方式
 
 <p>
-  <a href="mailto:<YOUR_EMAIL>"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:cyph3r1ab@outlook.com"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
